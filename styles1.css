@@ -1,0 +1,76 @@
+/* Обнуляем отступы и поля у body */
+body, h1, h2, p, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Основные стили для body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Стили для header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Стили для заголовка */
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Стили для секции с формой запроса */
+.request-form {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.request-form h2 {
+    font-size: 24px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label, input, textarea {
+    display: block;
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Стили для footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
